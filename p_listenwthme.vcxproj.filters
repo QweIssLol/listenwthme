@@ -13,48 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Исходные файлы\boost::asio">
-      <UniqueIdentifier>{82408c62-02f8-4b2e-bde2-73375d22267a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы заголовков\boost::asio_headers">
-      <UniqueIdentifier>{810cf446-c3f3-45cd-b48a-c9b19aa4950e}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="tut1.cpp">
-      <Filter>Исходные файлы\boost::asio</Filter>
+    <ClCompile Include="asio_source\tut1.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="tut2.cpp">
-      <Filter>Исходные файлы\boost::asio</Filter>
+    <ClCompile Include="asio_source\tut2.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="tut3.cpp">
-      <Filter>Исходные файлы\boost::asio</Filter>
+    <ClCompile Include="asio_source\tut3.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="tut4.cpp">
-      <Filter>Исходные файлы\boost::asio</Filter>
+    <ClCompile Include="asio_source\tut4.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="tut5.cpp">
-      <Filter>Исходные файлы\boost::asio</Filter>
+    <ClCompile Include="asio_source\tut5.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="tut1.h">
-      <Filter>Файлы заголовков\boost::asio_headers</Filter>
+    <ClInclude Include="asio_headers\tut1.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="tut2.h">
-      <Filter>Файлы заголовков\boost::asio_headers</Filter>
+    <ClInclude Include="asio_headers\tut2.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="tut3.h">
-      <Filter>Файлы заголовков\boost::asio_headers</Filter>
+    <ClInclude Include="asio_headers\tut3.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="tut4.h">
-      <Filter>Файлы заголовков\boost::asio_headers</Filter>
+    <ClInclude Include="asio_headers\tut4.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="tut5.h">
-      <Filter>Файлы заголовков\boost::asio_headers</Filter>
+    <ClInclude Include="asio_headers\tut5.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

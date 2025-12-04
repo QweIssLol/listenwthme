@@ -128,19 +128,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="asio_source\tut1.cpp" />
+    <ClCompile Include="asio_source\tut2.cpp" />
+    <ClCompile Include="asio_source\tut3.cpp" />
+    <ClCompile Include="asio_source\tut4.cpp" />
+    <ClCompile Include="asio_source\tut5.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="tut2.cpp" />
-    <ClCompile Include="tut1.cpp" />
-    <ClCompile Include="tut3.cpp" />
-    <ClCompile Include="tut4.cpp" />
-    <ClCompile Include="tut5.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="tut1.h" />
-    <ClInclude Include="tut2.h" />
-    <ClInclude Include="tut3.h" />
-    <ClInclude Include="tut4.h" />
-    <ClInclude Include="tut5.h" />
+    <ClInclude Include="asio_headers\tut1.h" />
+    <ClInclude Include="asio_headers\tut2.h" />
+    <ClInclude Include="asio_headers\tut3.h" />
+    <ClInclude Include="asio_headers\tut4.h" />
+    <ClInclude Include="asio_headers\tut5.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
