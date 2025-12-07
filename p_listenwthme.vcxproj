@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -105,7 +105,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\CPPLibraries\boost_1_89_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);C:\CPPLibraries\boost_1_89_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,19 +128,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="asio_source\tut1.cpp" />
-    <ClCompile Include="asio_source\tut2.cpp" />
-    <ClCompile Include="asio_source\tut3.cpp" />
-    <ClCompile Include="asio_source\tut4.cpp" />
-    <ClCompile Include="asio_source\tut5.cpp" />
+    <ClCompile Include="asio_source\timer_tut\tut1.cpp" />
+    <ClCompile Include="asio_source\timer_tut\tut2.cpp" />
+    <ClCompile Include="asio_source\timer_tut\tut3.cpp" />
+    <ClCompile Include="asio_source\timer_tut\tut4.cpp" />
+    <ClCompile Include="asio_source\timer_tut\tut5.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="asio_headers\tut1.h" />
-    <ClInclude Include="asio_headers\tut2.h" />
-    <ClInclude Include="asio_headers\tut3.h" />
-    <ClInclude Include="asio_headers\tut4.h" />
-    <ClInclude Include="asio_headers\tut5.h" />
+    <ClInclude Include="asio_headers\timer_tut\tut1.h" />
+    <ClInclude Include="asio_headers\timer_tut\tut2.h" />
+    <ClInclude Include="asio_headers\timer_tut\tut3.h" />
+    <ClInclude Include="asio_headers\timer_tut\tut4.h" />
+    <ClInclude Include="asio_headers\timer_tut\tut5.h" />
+    <ClInclude Include="asio_headers\main.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

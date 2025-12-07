@@ -18,36 +18,39 @@
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="asio_source\tut1.cpp">
+    <ClCompile Include="asio_source\timer_tut\tut1.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="asio_source\tut2.cpp">
+    <ClCompile Include="asio_source\timer_tut\tut2.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="asio_source\tut3.cpp">
+    <ClCompile Include="asio_source\timer_tut\tut3.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="asio_source\tut4.cpp">
+    <ClCompile Include="asio_source\timer_tut\tut4.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="asio_source\tut5.cpp">
+    <ClCompile Include="asio_source\timer_tut\tut5.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="asio_headers\tut1.h">
+    <ClInclude Include="asio_headers\timer_tut\tut1.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="asio_headers\tut2.h">
+    <ClInclude Include="asio_headers\timer_tut\tut2.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="asio_headers\tut3.h">
+    <ClInclude Include="asio_headers\timer_tut\tut3.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="asio_headers\tut4.h">
+    <ClInclude Include="asio_headers\timer_tut\tut4.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="asio_headers\tut5.h">
+    <ClInclude Include="asio_headers\timer_tut\tut5.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="asio_headers\main.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
