@@ -33,6 +33,12 @@
     <ClCompile Include="asio_source\timer_tut\tut5.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="asio_source\daytime_tut\daytime1.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="asio_source\daytime_tut\daytime2.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="asio_headers\timer_tut\tut1.h">
@@ -51,6 +57,12 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="asio_headers\main.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="asio_headers\daytime_tut\daytime1.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="asio_headers\daytime_tut\daytime2.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

@@ -128,6 +128,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="asio_source\daytime_tut\daytime1.cpp" />
+    <ClCompile Include="asio_source\daytime_tut\daytime2.cpp" />
     <ClCompile Include="asio_source\timer_tut\tut1.cpp" />
     <ClCompile Include="asio_source\timer_tut\tut2.cpp" />
     <ClCompile Include="asio_source\timer_tut\tut3.cpp" />
@@ -136,6 +138,8 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="asio_headers\daytime_tut\daytime1.h" />
+    <ClInclude Include="asio_headers\daytime_tut\daytime2.h" />
     <ClInclude Include="asio_headers\timer_tut\tut1.h" />
     <ClInclude Include="asio_headers\timer_tut\tut2.h" />
     <ClInclude Include="asio_headers\timer_tut\tut3.h" />
