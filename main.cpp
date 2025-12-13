@@ -6,7 +6,8 @@
 
 #include "asio_headers/daytime_tut/daytime1.h"
 #include "asio_headers/daytime_tut/daytime2.h"
+#include "asio_headers/daytime_tut/daytime3.h"
 
 int main() {
-	daytime2();
+	daytime3();
 }

@@ -5,13 +5,6 @@ using namespace std;
 using namespace boost;
 using namespace asio;
 
-std::string make_daytime_string() {
-	time_t now = time(0);
-	char buf[26];
-	ctime_s(buf, sizeof(buf), &now);
-	return string(buf);
-}
-
 int daytime2() {
 	try {
 		io_context io;
